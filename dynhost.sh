@@ -32,4 +32,5 @@ else
     LOG_SUFFIX="IP has not changed"
   fi
 fi
+fi
 echo "$LOG_PREFIX - $LOG_SUFFIX" >> "$LOG_FILE"
